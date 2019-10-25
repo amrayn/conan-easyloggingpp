@@ -13,7 +13,7 @@ It provides ability to write logs in your own customized format.
 It also provide support for logging your classes, third-party libraries, STL and third-party containers etc."""
 
     def source(self):
-        tools.download("https://github.com/muflihun/easyloggingpp/releases/download/v%s/easyloggingpp_v%s.zip" % (self.version, self.version),
+        tools.download("https://github.com/amrayn/easyloggingpp/releases/download/v%s/easyloggingpp_v%s.zip" % (self.version, self.version),
                        "easyloggingpp.zip")
         tools.unzip("easyloggingpp.zip" )
 
